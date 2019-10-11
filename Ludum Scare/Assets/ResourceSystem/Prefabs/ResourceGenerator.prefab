@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6231164686444126789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6231164686444126787}
+  - component: {fileID: 6231164686444126786}
+  m_Layer: 0
+  m_Name: ResourceGenerator
+  m_TagString: ResourceGenerator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6231164686444126787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231164686444126789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6231164686444126786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231164686444126789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5658b69d719e04bb8cda5b0aa73604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeSpawnPoints: 2
+  essencePrefab: {fileID: 3841994426826738270, guid: 05d566193a1fda746b2c57b845f2f351,
+    type: 3}
+  greenEssence: {fileID: 2078070182127989236, guid: 9bfb91fdb73d3884b90c4a55f49f3769,
+    type: 3}
+  blueEssence: {fileID: 4120821319456197348, guid: dc840bd3a95fc2a4b9bd52712a855187,
+    type: 3}
+  redEssence: {fileID: 746002920811430019, guid: 84173f86ea9e9a743bccd911c835176a,
+    type: 3}
+  yellowEssence: {fileID: 684476933313754906, guid: 434fe4f40364fca408c512d1e0fef7ff,
+    type: 3}
+  activeScrollSpawnPoints: 3
+  scrollPrefab1: {fileID: 8068010146883050380, guid: 6ab50a2316d41344baea614a0ce8461f,
+    type: 3}
+  scrollPrefab2: {fileID: 112986683579196123, guid: ff773a3555ff6834ba746ac8222cd7cd,
+    type: 3}
+  scrollPrefab3: {fileID: 9101169921507691599, guid: 62179a6cb6b4d5e4496e0b0c1ed46743,
+    type: 3}
+  scrollPrefab4: {fileID: 8070466985418282149, guid: 03506b905cffbb04fbcc851c67c9a915,
+    type: 3}

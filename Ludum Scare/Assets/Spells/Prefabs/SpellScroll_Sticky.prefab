@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-666118605530962119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070466985418282149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af50220184fa3a14596a92542522226a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickyPrefab: {fileID: 3650772339041555752, guid: a5f8bcac8c3ea49489bcd434edc9e8de,
+    type: 3}
+--- !u!1001 &5676574676786912797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4523637545824897720, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_Name
+      value: SpellScroll_Sticky
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897727, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897727, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897726, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3c008dfd011606c439a8641ac8aa012e,
+        type: 3}
+    - target: {fileID: 4523637545824897726, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897721, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: -666118605530962119}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ca8db4cb41102647954768fa61c8af8, type: 3}
+--- !u!1 &8070466985418282149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4523637545824897720, guid: 1ca8db4cb41102647954768fa61c8af8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5676574676786912797}
+  m_PrefabAsset: {fileID: 0}

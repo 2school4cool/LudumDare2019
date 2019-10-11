@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4675406170945925694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101169921507691599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7ff4827262fce48a93777cab2fae18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shockParticlePrefab: {fileID: 4594202868900437626, guid: 59d7b18619e8dbd45b81cc0df4bb9b69,
+    type: 3}
+--- !u!1001 &4650786522913359607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4523637545824897720, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_Name
+      value: SpellScroll_ShockWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897724, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897727, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897727, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523637545824897726, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04d15d7e718e9d24fa34c3760d1cbdb2,
+        type: 3}
+    - target: {fileID: 4523637545824897721, guid: 1ca8db4cb41102647954768fa61c8af8,
+        type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: -4675406170945925694}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ca8db4cb41102647954768fa61c8af8, type: 3}
+--- !u!1 &9101169921507691599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4523637545824897720, guid: 1ca8db4cb41102647954768fa61c8af8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4650786522913359607}
+  m_PrefabAsset: {fileID: 0}
